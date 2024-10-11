@@ -25,12 +25,14 @@
   },
   "include": [
     "new-types.d.ts",
-    "next-env.d.ts",    
+    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
-    "scripts/seed.js"
-, "next.config.mjs"  ],
+    "scripts/seed.js",
+    "next.config.mjs",
+    "app/seed/route.ts"
+  ],
   "exclude": ["node_modules"]
 }
